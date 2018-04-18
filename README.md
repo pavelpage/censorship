@@ -8,7 +8,7 @@ This package could be used for cleaning obscene language from user messages.
 
 Simply install it using composer command:
 
-`composer require pavelpage/censorship`
+` composer require "pavelpage/censorship:dev-master"`
 
 ### Usage
 
@@ -51,6 +51,10 @@ except_words | also, you can exclude some words from checking
 $censor = new Censor(['param_name' => []);// just send your custom configuration parameters to __construct method of controller
 
 ```
+
+### Demo:
+
+You can visit this site [demo](https://demo.pavelpage.ru/censorship/) and check how it is working.
 
 ### Notice:
 
