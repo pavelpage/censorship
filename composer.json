@@ -2,6 +2,8 @@
     "name": "pavelpage/censorship",
     "description": "This package can clean all non-normative lexis from your texts",
     "type": "library",
+    "minimum-stability": "dev",
+    "version": "1.0.0",
     "license": "MIT",
     "authors": [
         {
